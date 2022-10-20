@@ -10,9 +10,8 @@
     padding-bottom: 8px;
 }
 
-.time, .colaboradores {
+.time .colaboradores {
     display: flex;
     justify-content: space-around;
     margin-top: 32px;
-    flex-wrap: wrap;
 }
