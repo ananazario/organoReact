@@ -11,7 +11,6 @@ const Colaborador = ({nome, imagem, cargo}) => {
                 <h5>{cargo}</h5>
             </div>
         </div>
-
     )
 }
 
