@@ -50,8 +50,16 @@ const Formulario = (props) => {
                 placeholder="Digite o endereço da imagem" 
                 aoAlterado={valor => setImagem(valor)} 
                 />
-                <ListaSuspensa obrigatorio={true} label="Time" itens={props.times} valor={time} aoAlterado= {valor => setTime(valor)}/>
-                <Botao> Criar Card </Botao>
+                <ListaSuspensa 
+                obrigatorio={true} 
+                label="Time"
+                itens={props.times} 
+                valor={time} 
+                aoAlterado= {valor => setTime(valor)}
+                />
+                <Botao> 
+                    Criar Card 
+                </Botao>
             </form>
         </section>
     )
