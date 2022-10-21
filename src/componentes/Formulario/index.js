@@ -48,6 +48,7 @@ const Formulario = (props) => {
                 obrigatorio={true} 
                 label="Imagem" 
                 placeholder="Digite o endereço da imagem" 
+                valor={imagem}
                 aoAlterado={valor => setImagem(valor)} 
                 />
                 <ListaSuspensa 

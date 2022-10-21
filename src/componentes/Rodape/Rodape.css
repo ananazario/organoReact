@@ -1,16 +1,23 @@
 footer {
     display: flex;
+    align-items: center;
     background-color: #6278f7;
     justify-content: space-evenly;
     color: #fff;
-    padding: 3rem 0;
-    vertical-align: middle;
-    text-align: center;
+    padding: 2.4rem 0;
+}
+
+img {
+    width: 9rem;
 }
 
 .redesSociais img {
-    justify-content: space-between;
-    vertical-align: middle;
-    text-align: center;
-    gap: 3;
+    padding: 0 0.5rem;
+    width: 1.5rem;
+}
+
+@media screen and (max-width: 615px){
+    .logo {
+        display: none;
+    }
 }
